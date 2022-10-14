@@ -28,7 +28,7 @@ sh = (libc_base-0x28000) + 0x1d8698
 
 log.info(f"Leaks: {leaks}")
 log.info(f"Binary: {hex(binary)}")
-log.info(f"لآinary base: {hex(binary_base)}")
+log.info(f"binary base: {hex(binary_base)}")
 log.info(f"Main: {hex(main)}")
 log.info(f"Canary: {hex(canary)}")
 log.info(f"Libc Address: {hex(leaked_libc)}")
